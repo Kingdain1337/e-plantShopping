@@ -39,6 +39,21 @@ body {
    
 }
 
+.category-container {
+    text-align: center;
+  }
+
+.category-title {
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    margin: 20px 0;
+    padding: 10px 0;
+    font-size: 2rem;
+}
+
 /* Product Grid */
 .product-grid {
     display:flex;
@@ -165,10 +180,9 @@ body {
     display: flex;
 }
 .cart_quantity_count{
-    margin-top: 16px;
-    /* background-color: red; */
-    margin-left: 27px;
     position: absolute;
+    margin-top: 16px;
+    margin-left: 27px;
     font-size: 29px;
 
 }
