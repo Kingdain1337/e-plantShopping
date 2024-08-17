@@ -212,6 +212,7 @@ function ProductList() {
             ]
         }
     ];
+
    const styleObj={
     backgroundColor: '#4CAF50',
     color: '#fff!important',
@@ -268,7 +269,7 @@ const handlePlantsClick = (e) => {
         </div>
         {!showCart? (
         <div className="product-grid">
-
+            
 
         </div>
  ) :  (
